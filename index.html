@@ -46,7 +46,7 @@
             }
 
         } else {
-            canvas.onmousedown = () => {
+            canvas.onmousedown = (e) => {
                 painting = true
                 last = [e.clientX, e.clientY]
             }
